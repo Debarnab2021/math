@@ -1,0 +1,41 @@
+body{
+    background-image: url(background.jpeg);
+}
+#number_1,#number_2{
+    width: 40%;
+}
+.total_container{
+    background-color: white;
+    width: 50%;
+    border-radius: 23px;
+    border-style: dashed;
+    border-color: red;
+    border-width: 0.1cm;
+    height: 70%;
+}
+#output{
+    width: 405px;
+    background: white;
+    border-color: black;
+    border-style: dashed;
+    border-radius: 10px;
+    border-top: 10px solid red;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+#player1_name,#player1_score
+{
+    float: left;
+    margin-left: 10px;
+}
+#player2_name,#player2_score
+{
+    float: left;
+    margin-left: 10px;
+}
+#player2_score,#player1_score
+{
+    font-size: 23px;
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game_page.css">
+<script src="game_page.js"></script>
+</head>
+<body onload="Onload()">
+
+    <h4 id="player1_name"></h4><span id="player1_score"></span>
+	<br><br>
+	<h4 id="player2_name"></h4><span id="player2_score"></span>
+	<br>
+    <div class="form-control container total_container">
+	<center>
+		<br><br>
+		<h2 style="color: black; font-family: papyrus;">Math Quiz</h2>
+		<br><br>
+		
+		<h3 id="player_question" style="color: black;"></h3>
+		<h3 id="player_answer"></h3>
+		<div id="output" class="col-lg-6"></div>
+		<h3>Number 1</h3>
+		<br><input id="number_1" type="number" class="form-control" placeholder="Number 1">
+		<h3>Number 2</h3>
+		<br><input id="number_2" type="number" class="form-control" placeholder="Number 2">
+		<br><br><button class="btn btn-success" onclick="send()">Send</button>
+		<br><br><br>
+		
+			
+        
+	</center>
+</div>
